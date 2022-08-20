@@ -1,0 +1,4 @@
+#! /usr/bin/perl
+my $year = (localtime(time))[5] + 1900;
+print "Content-type: text/html ";
+print $year;
